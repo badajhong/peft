@@ -1,0 +1,64 @@
+{
+  "os": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.20",
+  "startedAt": "2026-06-18T03:03:54.322555Z",
+  "args": [
+    "--methods",
+    "lora",
+    "cara",
+    "oft",
+    "boft",
+    "psoft",
+    "pissa",
+    "dora",
+    "--train-samples",
+    "512",
+    "--max-steps",
+    "100",
+    "--batch-size",
+    "1",
+    "--max-seq-length",
+    "512",
+    "--dtype",
+    "bfloat16",
+    "--wandb-project",
+    "llama32-3b-math-peft-time",
+    "--wandb-group",
+    "llama32-3b-math-compare"
+  ],
+  "program": "/home/rllab/haechan/peft/haechan/math_peft_time_compare.py",
+  "codePath": "haechan/math_peft_time_compare.py",
+  "codePathLocal": "haechan/math_peft_time_compare.py",
+  "git": {
+    "remote": "https://github.com/cotton-ahn/peft",
+    "commit": "55885d86bd5d29dea76fae0b3a0c1f6f3df260a7"
+  },
+  "email": "badajhong95@gmail.com",
+  "root": "/home/rllab/haechan/peft",
+  "host": "rllab-MS-7E01",
+  "executable": "/home/rllab/anaconda3/envs/peft/bin/python",
+  "cpu_count": 24,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1967317549056",
+      "used": "929355321344"
+    }
+  },
+  "memory": {
+    "total": "134764662784"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere",
+      "uuid": "GPU-d3197827-e0a7-3a11-d25e-2de5b54f8980"
+    }
+  ],
+  "cudaVersion": "13.1",
+  "writerId": "3pi3piqhwkj6pc3r78eunkl4wyz1ogxp"
+}

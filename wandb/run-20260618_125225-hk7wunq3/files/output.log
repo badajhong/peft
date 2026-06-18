@@ -1,0 +1,4 @@
+[lora] wandb run: https://wandb.ai/badajhong95-unist/llama32-3b-math-peft-time/runs/hk7wunq3
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 254/254 [00:00<00:00, 15763.86it/s]
+train:   0%|                                                                                                                                                                                              | 0/1250 [00:00<?, ?it/s]

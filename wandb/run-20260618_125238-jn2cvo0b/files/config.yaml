@@ -1,0 +1,183 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            pcv6x5mavs2778mgalyq03d0wkr11i9b:
+                args:
+                    - --methods
+                    - lora
+                    - cara
+                    - oft
+                    - boft
+                    - psoft
+                    - pissa
+                    - dora
+                    - lora-xs
+                    - --batch-size
+                    - "64"
+                    - --dtype
+                    - bfloat16
+                    - --wandb-project
+                    - llama32-3b-math-peft-time
+                    - --wandb-group
+                    - llama32-3b-math-compare
+                codePath: haechan/math_peft_time_compare.py
+                codePathLocal: haechan/math_peft_time_compare.py
+                cpu_count: 24
+                cpu_count_logical: 32
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "1967317549056"
+                        used: "930064031744"
+                email: badajhong95@gmail.com
+                executable: /home/rllab/anaconda3/envs/peft/bin/python
+                git:
+                    commit: 55885d86bd5d29dea76fae0b3a0c1f6f3df260a7
+                    remote: https://github.com/cotton-ahn/peft
+                gpu: NVIDIA RTX A6000
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-d3197827-e0a7-3a11-d25e-2de5b54f8980
+                host: rllab-MS-7E01
+                memory:
+                    total: "134764662784"
+                os: Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+                program: /home/rllab/haechan/peft/haechan/math_peft_time_compare.py
+                python: CPython 3.10.20
+                root: /home/rllab/haechan/peft
+                startedAt: "2026-06-18T03:52:38.997432Z"
+                writerId: pcv6x5mavs2778mgalyq03d0wkr11i9b
+        m:
+            - "1": train/step
+              "6":
+                - 3
+              "7": []
+            - "2": train/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+            - "2": summary/*
+              "6": []
+              "7": []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+                - 98
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+                - 98
+            "3":
+                - 2
+                - 7
+                - 13
+                - 15
+                - 16
+            "4": 3.10.20
+            "5": 0.27.2
+            "6": 5.12.1
+            "10":
+                - 20
+            "12": 0.27.2
+            "13": linux-x86_64
+batch_size:
+    value: 64
+dataset_config:
+    value: null
+dataset_name:
+    value: meta-math/MetaMathQA-40K
+dataset_split:
+    value: train
+dtype:
+    value: bfloat16
+effective_batch_size:
+    value: 64
+epochs:
+    value: 2
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: false
+learning_rate:
+    value: 0.0001
+local_output_dir:
+    value: /home/rllab/haechan/peft/haechan/results/math_time_compare/20260618-125206
+loraxs_reconstruct_config:
+    value: LoRA-XS/config/reconstruct_config.yaml
+loraxs_reconstruction_type:
+    value: svd
+loraxs_root:
+    value: LoRA-XS
+lr_scheduler:
+    value: cosine
+max_grad_norm:
+    value: 1
+max_seq_length:
+    value: 512
+method:
+    value: oft
+micro_batch_size:
+    value: 64
+model_id:
+    value: meta-llama/Llama-3.2-3B
+num_train_examples:
+    value: 40000
+optimizer:
+    value: adamw
+peft_config:
+    value:
+        auto_mapping: null
+        base_model_name_or_path: null
+        bias: none
+        block_share: false
+        coft: false
+        eps: 6e-05
+        exclude_modules: null
+        fan_in_fan_out: false
+        inference_mode: false
+        init_weights: true
+        layers_pattern: null
+        layers_to_transform: null
+        module_dropout: 0
+        modules_to_save: null
+        num_cayley_neumann_terms: 5
+        oft_block_size: 0
+        peft_type: OFT
+        peft_version: 0.18.2.dev0@UNKNOWN
+        r: 32
+        revision: null
+        target_modules: null
+        task_type: CAUSAL_LM
+        use_cayley_neumann: true
+query_field:
+    value: query
+response_field:
+    value: response
+target_modules:
+    value: auto
+total_params:
+    value: 3220921344
+train_samples:
+    value: 0
+trainable_params:
+    value: 8171520
+trainable_percent:
+    value: 0.2537013210590218
+warmup_ratio:
+    value: 0.1
+weight_decay:
+    value: 0

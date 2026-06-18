@@ -1,0 +1,183 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            gktcfkzd2mgl37iezxde18xystwashfe:
+                args:
+                    - --methods
+                    - lora
+                    - cara
+                    - oft
+                    - boft
+                    - psoft
+                    - pissa
+                    - dora
+                    - --train-samples
+                    - "512"
+                    - --max-steps
+                    - "100"
+                    - --batch-size
+                    - "1"
+                    - --max-seq-length
+                    - "512"
+                    - --dtype
+                    - bfloat16
+                    - --wandb-project
+                    - llama32-3b-math-peft-time
+                    - --wandb-group
+                    - llama32-3b-math-compare
+                codePath: haechan/math_peft_time_compare.py
+                codePathLocal: haechan/math_peft_time_compare.py
+                cpu_count: 24
+                cpu_count_logical: 32
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "1967317549056"
+                        used: "929450827776"
+                email: badajhong95@gmail.com
+                executable: /home/rllab/anaconda3/envs/peft/bin/python
+                git:
+                    commit: 55885d86bd5d29dea76fae0b3a0c1f6f3df260a7
+                    remote: https://github.com/cotton-ahn/peft
+                gpu: NVIDIA RTX A6000
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-d3197827-e0a7-3a11-d25e-2de5b54f8980
+                host: rllab-MS-7E01
+                memory:
+                    total: "134764662784"
+                os: Linux-6.8.0-124-generic-x86_64-with-glibc2.35
+                program: /home/rllab/haechan/peft/haechan/math_peft_time_compare.py
+                python: CPython 3.10.20
+                root: /home/rllab/haechan/peft
+                startedAt: "2026-06-18T03:05:40.026087Z"
+                writerId: gktcfkzd2mgl37iezxde18xystwashfe
+        m:
+            - "1": train/step
+              "6":
+                - 3
+              "7": []
+            - "2": train/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+            - "2": summary/*
+              "6": []
+              "7": []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+                - 98
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 71
+                - 98
+            "3":
+                - 2
+                - 7
+                - 13
+                - 15
+                - 16
+                - 62
+            "4": 3.10.20
+            "5": 0.27.2
+            "6": 5.12.1
+            "10":
+                - 20
+            "12": 0.27.2
+            "13": linux-x86_64
+batch_size:
+    value: 1
+dataset_config:
+    value: null
+dataset_name:
+    value: meta-math/MetaMathQA
+dataset_split:
+    value: train
+dtype:
+    value: bfloat16
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: false
+learning_rate:
+    value: 0.0001
+local_output_dir:
+    value: /home/rllab/haechan/peft/haechan/results/math_time_compare/20260618-120027
+max_grad_norm:
+    value: 1
+max_seq_length:
+    value: 512
+max_steps:
+    value: 100
+method:
+    value: pissa
+model_id:
+    value: meta-llama/Llama-3.2-3B
+peft_config:
+    value:
+        alora_invocation_tokens: null
+        arrow_config: null
+        auto_mapping: null
+        base_model_name_or_path: null
+        bias: none
+        corda_config: null
+        ensure_weight_tying: false
+        eva_config: null
+        exclude_modules: null
+        fan_in_fan_out: false
+        inference_mode: false
+        init_lora_weights: pissa_niter_4
+        layer_replication: null
+        layers_pattern: null
+        layers_to_transform: null
+        lora_alpha: 64
+        lora_bias: false
+        lora_dropout: 0
+        lora_ga_config: null
+        megatron_config: null
+        megatron_core: megatron.core
+        modules_to_save: null
+        peft_type: LORA
+        peft_version: 0.18.2.dev0@UNKNOWN
+        qalora_group_size: 16
+        r: 32
+        revision: null
+        target_modules: null
+        target_parameters: null
+        task_type: CAUSAL_LM
+        trainable_token_indices: null
+        use_bdlora: null
+        use_dora: false
+        use_qalora: false
+        use_rslora: false
+query_field:
+    value: query
+response_field:
+    value: response
+target_modules:
+    value: auto
+total_params:
+    value: 3221924864
+train_samples:
+    value: 512
+trainable_params:
+    value: 9175040
+trainable_percent:
+    value: 0.28476890018500445
+weight_decay:
+    value: 0

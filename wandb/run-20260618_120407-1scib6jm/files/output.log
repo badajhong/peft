@@ -1,0 +1,9 @@
+[boft] wandb run: https://wandb.ai/badajhong95-unist/llama32-3b-math-peft-time/runs/1scib6jm
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 254/254 [00:00<00:00, 10255.22it/s]
+/home/rllab/haechan/peft/src/peft/tuners/boft/layer.py:95: UserWarning: Failed to load the CUDA extension: Ninja is required to load C++ extensions (pip install ninja to get it), check if ninja is available.
+  warnings.warn(f"Failed to load the CUDA extension: {e}, check if ninja is available.")
+/home/rllab/haechan/peft/src/peft/tuners/boft/layer.py:96: UserWarning: Setting boft_n_butterfly_factor to 1 to speed up the finetuning process.
+  warnings.warn("Setting boft_n_butterfly_factor to 1 to speed up the finetuning process.")
+/home/rllab/haechan/peft/src/peft/tuners/boft/layer.py:95: UserWarning: Failed to load the CUDA extension: /home/rllab/.cache/torch_extensions/py310_cu130/fbd_cuda/fbd_cuda.so: cannot open shared object file: No such file or directory, check if ninja is available.
+  warnings.warn(f"Failed to load the CUDA extension: {e}, check if ninja is available.")
+                                                                                                                                                                                                                                                                     

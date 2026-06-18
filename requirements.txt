@@ -1,0 +1,16 @@
+accelerate
+torch
+safetensors
+bitsandbytes
+scipy
+peft
+transformers
+tqdm
+packaging
+pytest
+numpy
+pyyaml
+scikit-learn
+datasets
+psutil
+setuptools

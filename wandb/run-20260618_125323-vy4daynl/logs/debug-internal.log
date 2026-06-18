@@ -1,0 +1,18 @@
+{"time":"2026-06-18T12:53:23.77400752+09:00","level":"INFO","msg":"wandb-core"}
+{"time":"2026-06-18T12:53:23.774065754+09:00","level":"INFO","msg":"stream: starting","core version":"0.27.2"}
+{"time":"2026-06-18T12:53:24.141112143+09:00","level":"INFO","msg":"stream: created new stream","id":"vy4daynl"}
+{"time":"2026-06-18T12:53:24.141160141+09:00","level":"INFO","msg":"handler: started"}
+{"time":"2026-06-18T12:53:24.14122799+09:00","level":"INFO","msg":"stream: started"}
+{"time":"2026-06-18T12:53:24.14125713+09:00","level":"INFO","msg":"writer: started","stream_id":"vy4daynl"}
+{"time":"2026-06-18T12:53:24.141265806+09:00","level":"INFO","msg":"sender: started"}
+{"time":"2026-06-18T12:53:24.559309368+09:00","level":"INFO","msg":"filestream: sending request","total_files":1,"console_offset":0,"console_lines":1}
+{"time":"2026-06-18T12:53:24.950445945+09:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-18T12:53:27.670434173+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-06-18T12:53:27.67051638+09:00","level":"INFO","msg":"filestream: sending request","total_files":2,"console_offset":1,"console_lines":1,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-06-18T12:53:28.094900261+09:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: error making HTTP request: POST https://api.wandb.ai/files/badajhong95-unist/llama32-3b-math-peft-time/vy4daynl/file_stream giving up after 1 attempt(s): context canceled. got response: <nil>"}
+{"time":"2026-06-18T12:53:28.102244833+09:00","level":"ERROR","msg":"sender: sendSummary called after exit"}
+{"time":"2026-06-18T12:53:28.102404592+09:00","level":"ERROR","msg":"sender: received exit more than once, ignoring"}
+{"time":"2026-06-18T12:53:28.1024486+09:00","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-06-18T12:53:28.102455919+09:00","level":"INFO","msg":"handler: closed"}
+{"time":"2026-06-18T12:53:28.102491373+09:00","level":"INFO","msg":"sender: closed"}
+{"time":"2026-06-18T12:53:28.102495562+09:00","level":"INFO","msg":"stream: all finished"}

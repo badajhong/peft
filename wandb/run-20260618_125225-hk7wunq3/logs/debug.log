@@ -1,0 +1,25 @@
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_setup.py:_flush():81] Current SDK version is 0.27.2
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_setup.py:_flush():81] Configure stats pid to 414676
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /home/rllab/haechan/peft/wandb/run-20260618_125225-hk7wunq3/logs/debug.log
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /home/rllab/haechan/peft/wandb/run-20260618_125225-hk7wunq3/logs/debug-internal.log
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_init.py:init():766] calling init triggers
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_init.py:init():771] wandb.init called with sweep_config: {}
+config: {'method': 'lora', 'model_id': 'meta-llama/Llama-3.2-3B', 'dataset_name': 'meta-math/MetaMathQA-40K', 'dataset_config': None, 'dataset_split': 'train', 'query_field': 'query', 'response_field': 'response', 'train_samples': 0, 'epochs': 2, 'max_seq_length': 512, 'batch_size': 64, 'micro_batch_size': 64, 'effective_batch_size': 64, 'gradient_accumulation_steps': 1, 'learning_rate': 0.0001, 'weight_decay': 0.0, 'max_grad_norm': 1.0, 'optimizer': 'adamw', 'lr_scheduler': 'cosine', 'warmup_ratio': 0.1, 'dtype': 'bfloat16', 'gradient_checkpointing': False, 'target_modules': 'auto', 'loraxs_root': 'LoRA-XS', 'loraxs_reconstruct_config': 'LoRA-XS/config/reconstruct_config.yaml', 'loraxs_reconstruction_type': 'svd', 'peft_config': {'task_type': 'CAUSAL_LM', 'peft_type': 'LORA', 'auto_mapping': None, 'peft_version': '0.18.2.dev0@UNKNOWN', 'base_model_name_or_path': None, 'revision': None, 'inference_mode': False, 'r': 32, 'target_modules': None, 'exclude_modules': None, 'lora_alpha': 64, 'lora_dropout': 0.0, 'fan_in_fan_out': False, 'bias': 'none', 'use_rslora': False, 'modules_to_save': None, 'init_lora_weights': True, 'layers_to_transform': None, 'layers_pattern': None, 'rank_pattern': {}, 'alpha_pattern': {}, 'megatron_config': None, 'megatron_core': 'megatron.core', 'trainable_token_indices': None, 'loftq_config': {}, 'eva_config': None, 'corda_config': None, 'lora_ga_config': None, 'use_dora': False, 'alora_invocation_tokens': None, 'use_qalora': False, 'qalora_group_size': 16, 'layer_replication': None, 'lora_bias': False, 'target_parameters': None, 'use_bdlora': None, 'arrow_config': None, 'ensure_weight_tying': False}, 'local_output_dir': '/home/rllab/haechan/peft/haechan/results/math_time_compare/20260618-125206', '_wandb': {}}
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_init.py:init():814] starting backend
+2026-06-18 12:52:25,361 INFO    MainThread:414676 [wandb_init.py:init():829] sending inform_init request
+2026-06-18 12:52:25,787 INFO    MainThread:414676 [wandb_init.py:init():834] backend started and connected
+2026-06-18 12:52:25,789 INFO    MainThread:414676 [wandb_init.py:init():904] updated telemetry
+2026-06-18 12:52:25,793 INFO    MainThread:414676 [wandb_init.py:init():927] communicating run to backend with 90.0 second timeout
+2026-06-18 12:52:26,459 INFO    MainThread:414676 [wandb_init.py:init():972] starting run threads in backend
+2026-06-18 12:52:26,493 INFO    MainThread:414676 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-18 12:52:26,493 INFO    MainThread:414676 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-18 12:52:26,493 INFO    MainThread:414676 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-18 12:52:26,493 INFO    MainThread:414676 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-18 12:52:26,495 INFO    MainThread:414676 [wandb_init.py:init():1010] run started, returning control to user process
+2026-06-18 12:52:28,431 INFO    MainThread:414676 [wandb_run.py:_config_callback():1346] config_cb None None {'num_train_examples': 40000, 'trainable_params': 9175040, 'total_params': 3221924864, 'trainable_percent': 0.28476890018500445}
+2026-06-18 12:52:29,526 INFO    MainThread:414676 [wandb_run.py:_finish():2285] finishing run badajhong95-unist/llama32-3b-math-peft-time/hk7wunq3
+2026-06-18 12:52:29,526 INFO    MainThread:414676 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-06-18 12:52:29,527 INFO    MainThread:414676 [wandb_run.py:_restore():2472] restore
+2026-06-18 12:52:29,527 INFO    MainThread:414676 [wandb_run.py:_restore():2478] restore done
+2026-06-18 12:52:31,522 INFO    MainThread:414676 [wandb_run.py:_footer_sync_info():3891] logging synced files
