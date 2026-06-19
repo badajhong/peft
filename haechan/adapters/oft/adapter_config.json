@@ -1,0 +1,28 @@
+{
+  "auto_mapping": null,
+  "base_model_name_or_path": "meta-llama/Llama-3.2-3B",
+  "bias": "none",
+  "block_share": false,
+  "coft": false,
+  "eps": 6e-05,
+  "exclude_modules": null,
+  "fan_in_fan_out": false,
+  "inference_mode": true,
+  "init_weights": true,
+  "layers_pattern": null,
+  "layers_to_transform": null,
+  "module_dropout": 0.0,
+  "modules_to_save": null,
+  "num_cayley_neumann_terms": 5,
+  "oft_block_size": 0,
+  "peft_type": "OFT",
+  "peft_version": "0.18.2.dev0@UNKNOWN",
+  "r": 32,
+  "revision": null,
+  "target_modules": [
+    "v_proj",
+    "q_proj"
+  ],
+  "task_type": "CAUSAL_LM",
+  "use_cayley_neumann": true
+}
